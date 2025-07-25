@@ -1,0 +1,47 @@
+Dockerization:
+
+Created a Dockerfile to containerize the legacy app.
+
+Optimized image layers and added .dockerignore.
+
+Local Testing with Docker Compose:
+
+Created docker-compose.yml to simulate DB + App locally.
+
+Ensured networking and environment variables are working.
+
+Kubernetes Deployment:
+
+Created:
+
+deployment.yaml
+
+service.yaml
+
+ingress.yaml
+
+Configured:
+
+Readiness & Liveness Probes.
+
+Resource limits and requests.
+
+Rolling updates and rollback strategies.
+
+Helm Chart:
+
+Developed a Helm chart (values.yaml, templates/) for app + service deployment.
+
+Parameterized port, image tag, resource limits, and probes.
+
+Monitoring:
+
+Integrated Prometheus to scrape metrics.
+
+Set up Grafana dashboards for app performance and cluster usage.
+
+CI/CD Integration:
+
+Setup GitHub Actions to build Docker image and push to DockerHub.
+
+Deployed the updated chart to the Kubernetes cluster on merge to main.
