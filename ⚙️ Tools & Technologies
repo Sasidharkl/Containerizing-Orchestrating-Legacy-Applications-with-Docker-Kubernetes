@@ -1,0 +1,13 @@
+Docker – To containerize the application and its dependencies.
+
+Kubernetes – For orchestration and container scheduling.
+
+Helm – To define and deploy Kubernetes manifests using charts.
+
+Docker Compose – For local multi-container testing before cluster deployment.
+
+Prometheus + Grafana – For monitoring.
+
+Ingress + NGINX – For routing traffic.
+
+GitHub Actions (or Jenkins) – For CI/CD pipeline integration.
