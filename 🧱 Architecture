@@ -1,0 +1,7 @@
+[Dockerized App] → [Helm Chart] → [Kubernetes Cluster (minikube/EKS/GKE)]
+                                 ↓
+                  [Liveness & Readiness Probes]
+                                 ↓
+                      [Horizontal Pod Autoscaler]
+                                 ↓
+                    [Prometheus + Grafana Monitoring]
